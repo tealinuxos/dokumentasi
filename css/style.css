@@ -144,7 +144,7 @@ header {
     color: #fff;
     min-height: 125px;
 }
-\
+
 #chevron:after {
   content: '';
   position: absolute;
