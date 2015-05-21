@@ -11,9 +11,9 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato", Helvetica, Arial, "Lucida Grande", sans-serif; 
-    font-weight: 400;
-    font-size: 16px;
+    font-family: "Lato",serif, Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    font-size: 20px;
 }
 
 body {
@@ -80,19 +80,19 @@ h2 {
 }
 
 h3 {
-    font-size: 24.5px;
+    font-size: 30px;
 }
 
 h4 {
-    font-size: 17.5px;
+    font-size: 25px;
 }
 
 h5 {
-    font-size: 14px;
+    font-size: 20px;
 }
 
 h6 {
-    font-size: 11.9px;
+    font-size: 15px;
 }
 
 hr {
@@ -146,7 +146,7 @@ header {
 }
 
 #chevron:after {
-  content: '';
+ /* content: '';
   position: absolute;
   top: 200px;
   left: 0;
@@ -161,7 +161,7 @@ header {
   -webkit-box-shadow: 0px 5px 5px 0px rgba(68, 68, 68, 0.3);
   -moz-box-shadow: 0px 5px 5px 0px rgba(68, 68, 68, 0.3);
   box-shadow: 0px 5px 5px 0px rgba(68, 68, 68, 0.3);
-  z-index: -5;
+  z-index: -5;*/
 }​
 
 h1 {
@@ -290,6 +290,8 @@ input:focus {
     border-right: 2px solid transparent;
     border-bottom: 1px solid #b90918;
     color: #eee;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 @media only screen and (min-width: 400px) {
@@ -373,19 +375,19 @@ input:focus {
     margin-bottom: 2em;
 }
 .sub-title{
-    font-size: 25px;
-    font-weight: 700;
+    font-weight: 800;
 }
 article h4{
     margin-top: 50px;
+    font-weight: 500;
 }
 article img{
     /*margin: 0 auto;
     display: block;*/
+    margin: 0 10px;
 }
 .docs-content article{
     padding-left: 2em;
-<<<<<<< HEAD
     margin-bottom: 50px;
 }
 .path{
@@ -399,6 +401,9 @@ article img{
     padding: 2px 20px;
     color: #000;
 }
-=======
+li{
+    list-style-image: url('../img/arrow.png') !important;
 }
->>>>>>> 6ff5535730e4060c3f002d87a841cdc8ffbc7088
+.docs-nav li{
+   list-style-image: none !important; 
+}
